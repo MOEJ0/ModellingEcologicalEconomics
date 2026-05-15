@@ -2,11 +2,9 @@
 # SECTION 0:  GENERIC INFRASTRUCTURE
 # ====================================================================
 
-library(igraph)
-
 # --------------------------------------------------------------------
 # 0.1 Gauss-Seidel solver
-# --------------------------------------------------------------------
+# ----------------------w----------------------------------------------
 # OUTER loop runs over periods t = 1, 2, ...
 # INNER loop solves the SIMULTANEOUS system within each period by
 # iterating cur <- model_fn(cur, prev, params, t) until consecutive
